@@ -1,0 +1,25 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+define('__ROOT__',__DIR__);
+define('__LIB__',__DIR__."/lib//");
+require_once __DIR__."/vendor/autoload.php";
+require_once __LIBPHP__."/env.php";
+require_once __DIR__."/config.php";
+require_once __DIR__."/event.php";
+require_once __DIR__."/router.php";
+define('SERVER_URL',(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http")."://".@$_SERVER['HTTP_HOST']);
+define('__CACHE__',isset($_ENV['__CACHE__']) ? $_ENV['__CACHE__'] : __DIR__."/data");
+define('__LOG__',isset($_ENV['__LOG__']) ? $_ENV['__LOG__'] : __DIR__."/log");
+define('__INCLUDE__',__DIR__."/include//");
+define('__MODULE__',__DIR__."/module//");
+define('__CONFIG__',__DIR__."/config//");
+define('__UPLOAD__',__DIR__."/upload//");
+define('__INIT__',__DIR__."/init//");
+define('__STATIC__',"https://static.bbetvn.co");
+define('__MESSAGE_TEMPLATE__',__DIR__."/message//");
+define('__API__',SERVER_URL."/json");
+require_once __MODULE__."/theme.php";
+require_once __MODULE__."/cssvariable.php";
+require_once __MODULE__."/setting.php";

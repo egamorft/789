@@ -1,0 +1,83 @@
+body {
+    color: white !important;
+}
+.app-card{
+    background: #0a0a0a !important;
+}
+input{
+    background: #011022 !important;
+}
+select{
+    background: #011022 !important;
+}
+.form-control {
+    border-color: slateblue !important;
+    color: #c2c6dc !important;
+    border: none !important;
+}
+.app-btn-primary{
+    background: slateblue !important;
+}
+label{
+    color: white !important;
+}
+a{
+    color: white !important;
+}
+.app{
+    background: #011022 !important;
+}
+.app-nav .nav-item {
+    display: block;
+    color: #5d6778;
+    background: #0a0a0a !important;
+}
+.app-nav .nav-link.active {
+    background:#edfdf6;
+    border-left:3px solid slateblue;
+    font-weight:500
+}
+.app-nav .nav-link.active i{
+    color:slateblue;
+}
+.app-sidepanel .sidepanel-inner {
+    background: #0a0a0a !important;
+}
+.app-sidepanel .sidepanel-inner {
+    box-shadow: rgb(0, 0, 0) 0px 8px 15px !important;
+}
+.app-header {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    border-bottom: unset !important;
+    background: #0a0a0a !important;
+}
+.app-branding .logo-text {
+    color: unset !important;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: white !important;
+}
+.app-sidepanel {
+    border-right: unset !important;
+}
+.dropdown-menu.show {
+    background: #011022 !important;
+    border-color: #414561 !important;
+}
+.app-nav-tabs {
+    background: unset !important;
+}
+.app-btn-secondary {
+    background: unset !important;
+    color: #5d6778;
+    border: 1px solid #bcc1cb;
+}
+.app-auth-wrapper {
+    background: #0a0a0a !important;
+}
+.app-nav .nav-link.active {
+    background: unset !important;
+}
+.modal-content {
+    background-color: #0a0a0a !important;
+}

@@ -1,0 +1,10 @@
+<?php
+require_once __DIR__."/../init.php";
+echo '{
+    "token": "6Pzw1g.UdQp_Q:u-oLtXroAGGPuyIGucc1BVYBvFLOQ8WuKz5nBNpG3Qo",
+    "keyName": "N-HBvA.aMG0WQ",
+    "issued": 1715069788865,
+    "expires": 1715073388865,
+    "capability": "{\"general:*\":[\"history\",\"subscribe\"],\"identity:ancestor:5e905098f728a037ee997005\":[\"history\",\"subscribe\"],\"identity:ancestor:5ea59d4a36ed410007668120\":[\"history\",\"subscribe\"],\"identity:ancestor:5eb520230ef1180007e7a0cf\":[\"history\",\"subscribe\"],\"identity:ancestor:651a6303baee28bac32b0847\":[\"history\",\"subscribe\"],\"identity:ancestor:6540d78a242d74c78313060d\":[\"history\",\"subscribe\"],\"product:lottery789:ancestor:5e905098f728a037ee997005\":[\"history\",\"subscribe\"],\"product:lottery789:ancestor:5ea59d4a36ed410007668120\":[\"history\",\"subscribe\"],\"product:lottery789:ancestor:5eb520230ef1180007e7a0cf\":[\"history\",\"subscribe\"],\"product:lottery789:ancestor:651a6303baee28bac32b0847\":[\"history\",\"subscribe\"],\"product:lottery789:ancestor:6540d78a242d74c78313060d\":[\"history\",\"subscribe\"],\"product:lottery789:general\":[\"history\",\"subscribe\"],\"product:lottery789:self:66137865226eff3698be0fd0\":[\"history\",\"presence\",\"subscribe\"],\"product:lottery:ancestor:5e905098f728a037ee997005\":[\"history\",\"subscribe\"],\"product:lottery:ancestor:5ea59d4a36ed410007668120\":[\"history\",\"subscribe\"],\"product:lottery:ancestor:5eb520230ef1180007e7a0cf\":[\"history\",\"subscribe\"],\"product:lottery:ancestor:651a6303baee28bac32b0847\":[\"history\",\"subscribe\"],\"product:lottery:ancestor:6540d78a242d74c78313060d\":[\"history\",\"subscribe\"],\"product:lottery:general\":[\"history\",\"subscribe\"],\"product:lottery:self:66137865226eff3698be0fd0\":[\"history\",\"presence\",\"subscribe\"],\"product:sen-casino:*:*\":[\"history\",\"subscribe\"],\"self:66137865226eff3698be0fd0\":[\"history\",\"presence\",\"subscribe\"]}",
+    "clientId": "66137865226eff3698be0fd0"
+}';
